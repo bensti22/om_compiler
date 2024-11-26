@@ -1,0 +1,16 @@
+{
+    "name": "Compiler OM",
+    "version": "1.0.0",
+    "description": "commande : npm run sass-dev, fonctionne seulement avec un path absolute",
+    "main": "index.js",
+    "scripts": {
+      "test": "test",
+      "sass-dev": "sass --watch --update --style=expanded /home/fondationsm/public_html/web/themes/custom/om/scss:/home/fondationsm/public_html/web/themes/custom/om/css",
+      "sass-prod": "rm -f ../css/*.map && sass --no-source-map --style=compressed /home/fondationsm/public_html/web/themes/custom/om/scss:/home/fondationsm/public_html/web/themes/custom/om/css"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "sass": "^1.72.0"
+    }
+  }
