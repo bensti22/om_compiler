@@ -1,5 +1,5 @@
 {
-    "name": "Compiler OM",
+    "name": "om_compiler",
     "version": "1.0.0",
     "description": "commande : npm run sass-dev, fonctionne seulement avec un path absolute",
     "main": "index.js",
