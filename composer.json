@@ -5,5 +5,10 @@
     "license": "GPL-2.0-or-later",
     "require": {
         "php": ">=8.0"
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "echo 'Démarrage de l'installation de npm'"
+        ]
     }
 }
