@@ -8,7 +8,10 @@
     },
     "scripts": {
         "post-install-cmd": [
-            "echo 'Démarrage de l'installation de npm'"
+            "echo 'Installation du module terminé. Exécution du script npm...' && composer run-script post-install-npm"
+        ],
+        "post-install-npm": [
+            "cd vendor/om_compiler && npm install"
         ]
     }
 }
