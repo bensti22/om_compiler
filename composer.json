@@ -1,0 +1,9 @@
+{
+    "name": "orizonmedia/om_compiler",
+    "type": "drupal-module",
+    "description": "compilateur SCSS",
+    "license": "GPL-2.0-or-later",
+    "require": {
+        "php": ">=8.0"
+    }
+}
