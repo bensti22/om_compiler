@@ -1,6 +1,6 @@
 {
     "name": "orizonmedia/om_compiler",
-    "type": "drupal-module",
+    "type": "om-vendor",
     "description": "compilateur SCSS",
     "license": "GPL-2.0-or-later",
     "require": {
