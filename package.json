@@ -9,7 +9,7 @@
       "sass-prod": "rm -f ../css/*.map && sass --no-source-map --style=compressed /home/fondationsm/public_html/web/themes/custom/om/scss:/home/fondationsm/public_html/web/themes/custom/om/css"
     },
     "author": "Ben",
-    "license": "ISC",
+    "license": "MIT",
     "devDependencies": {
       "sass": "^1.72.0"
     },
